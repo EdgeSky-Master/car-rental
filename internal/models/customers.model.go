@@ -15,4 +15,5 @@ type Customers struct {
 	Address string `gorm:"type:text"`
 	Drivers_license string `gorm:"size:50"`
 	gorm.Model
+	
 }
