@@ -19,4 +19,5 @@ type Users struct {
 	IsActive  bool      `json:"is_active"`
 	LastLogin time.Time `json:"last_login" gorm:"default:null;"`
 	gorm.Model
+
 }
