@@ -11,4 +11,5 @@ type Cars struct {
 	Color      string  `gorm:"size:50"`
 	Year       int     `gorm:"not null"`
 	gorm.Model
+	
 }
