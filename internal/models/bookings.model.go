@@ -14,5 +14,4 @@ type Bookings struct {
 	Car  Cars  `json:"car" gorm:"foreignKey:CarsID;references:id"`
 	User Users `json:"user" gorm:"foreignKey:UserID;references:id"`
 	Customer Customers `json:"customer" gorm:"foreignKey:CustomerID;references:id"`
-	
 }
